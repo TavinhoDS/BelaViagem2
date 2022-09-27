@@ -1,0 +1,639 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,700&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: none;
+}
+
+.menu2 {
+    display: flex;
+    align-items: center;
+    gap: 350px;
+    position: absolute;
+    background-color: #15151533;
+    width: 100%;
+    z-index: 1;
+ 
+ }
+ 
+ .menu2-logo {
+     display: flex;
+     align-items: center;
+ }
+ 
+ .menu2 h4{
+    color: white;
+    font-family: 'Pacifico', cursive;
+ }
+ 
+ .navbar-menu2-item:hover {
+     color: #FFA900;
+     text-decoration: underline 5px ;
+     
+  }
+ 
+ .navbar-menu2-item {
+     color: #e4e3e3;
+     text-decoration: none;
+     font-family: 'Roboto Condensed', sans-serif;
+     gap: 80px;
+     font-size: 17px;
+     
+ }
+
+ .button-nav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+    background-color: #FFA900;
+    padding: 10px;
+    border-radius: 10px;
+ }
+
+ .button-nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+ }
+
+ .button-nav a:hover {
+    color: white;
+ }
+ 
+ .button-nav:hover {
+    border: 5px solid white;
+ }
+
+
+.titulo-belaviagem{
+    background-image:  url(img/pexels-alex-does-pictures-10612249.jpg);
+    height: 617px;
+    width: 100% ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.titulo-belaviagem h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+.titulo-belaviagem h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.titulo-belaviagem img {
+    width: 70px;
+    justify-content: center;
+}
+
+/*____SECTION 2_____*/
+
+
+
+.destaques-locais{
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+
+.destaques-local-item{
+    font-size: 20px;
+    
+}
+
+.destaques-locais img {
+    height: 305px;
+    width: 420px;
+    
+}
+
+.destaques-local-item p {
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.destaques-local-item span {
+    margin-left: 10px;
+    color: #FFA900;
+    font-weight: bold;
+
+    
+}
+
+.destaques-locais img:hover {
+    border: 5px solid #FFA900;
+    border-radius: 15px;
+    filter: brightness(0.7);
+    cursor: pointer;
+}
+
+.infos-site {
+    background-color: #c4c3c356;
+    
+}
+
+.infos-site-titulo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    align-items: center;
+    
+}
+
+.infos-site-titulo h3 {
+    font-size: 34px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.infos-site-titulo img {
+    width: 50px;
+}
+
+.infos-site-card   {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    gap: 90px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.infos-site-card h4 {
+    font-weight: bold;
+}
+
+.infos-site-card-item img {
+    width: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+.infos-site-card-item {
+   width: 260px;
+   height: 400px;
+   border-radius: 10px;
+   border:#50535a4f solid 1px;
+}
+
+.infos-site-card-item p, h4, img {
+    margin: 10px;
+}
+
+/*_______|FOOTER|___________*/
+
+.bela-footer {
+    display: flex;
+    margin-top: 150px;
+    padding: 50px;
+    justify-content: space-between;
+    background-color: #151515;
+}
+
+
+
+.bela-footer-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+
+.bela-footer-logo p {
+    margin-left: 250px;
+}
+
+.bela-footer-logo h2{
+    font-family: 'Pacifico', cursive;
+}
+
+.bela-footer-redes{
+    display: flex;
+}
+
+.bela-footer-redes img {
+    width: 40px;
+    border: #50535A solid 2px;
+    border-radius: 100px;
+    background-color: #50535A;
+}
+
+.bela-footer-redes img:hover {
+    border: #FFA900 2px solid;
+    width: 45px;
+}
+
+/*______________________SOBRE PAGINA______________________*/
+
+
+
+.sobrenos {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: none;
+}
+.belaviagem-titulo-item2 span {
+    font-family: 'Pacifico', cursive;
+
+}
+
+
+.bela-info {
+    position: relative;
+    margin-top: 150px;
+    display: flex;
+    gap: 100px;
+    margin-left: 50px;
+}
+
+.bela-info img {
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.bela-info-text {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;   
+    gap: 50px;
+}
+
+.bela-info-text h3 {
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+
+/*______________MENU___________*/
+
+
+.belaviagem-titulo {
+    background-image: url(img/MAR.jpg);
+    width: 100%;
+    height: 500px;
+}
+
+.belaviagem-titulo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.belaviagem-titulo-item {
+    color:white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+
+
+}
+
+.belaviagem-titulo-item2{
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    font-size: 25px;
+    color:white;
+    font-weight: 200;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.belaviagem-titulo-home {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.belaviagem-titulo-home a {
+    border: 2px solid #50535a2f;
+    width: 200px;
+    text-align: center;
+    border-radius: 100px;
+    color: #e4e3e3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.belaviagem-titulo-home a:hover {
+    border: #FFA900 solid 3px;
+    color: #FFA900;
+}
+
+
+.destinos-images {
+    display: flex;
+    margin-top:100px ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.destino-images-item {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.destino-images-item img {
+    border-radius: 100px;
+    border: #8f939694 solid 4px;
+}
+
+.destino-images-item img:hover {
+    border: #FFA900 7px solid;
+
+}
+
+.destino-subtitulo h1 {
+    color: #c4c3c3;
+    margin-top: 100px;
+    font-size: 65px;
+    font-weight: 900;
+    font-style: italic;
+    margin-left: 50px;
+    text-decoration: underline;
+}
+
+.destino-subtitulo2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 140px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.destino-locais{
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.destino-local-item{
+    font-size: 20px;
+    
+}
+
+.destino-locais img {
+    height: 305px;
+    width: 420px;
+    border-radius: 10px;
+    
+}
+
+.destino-local-item p {
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.destino-local-item span {
+    margin-left: 10px;
+    color: #FFA900;
+    font-weight: bold;
+
+    
+}
+
+.destino-locais img:hover {
+    border: 5px solid #FFA900;
+    border-radius: 15px;
+    filter: brightness(0.7);
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*__________________CONTATO____________*/
+
+.contato-subtitulo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 110px;
+}
+
+.contato-info {
+    display: flex;
+    margin-top:20px ;
+    padding: 5%;
+    justify-content: space-around;
+    background-color: #c4c3c33d;
+}
+
+.contato-info-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    text-align: center;
+   align-items: center;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.criado-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.criado-button a {
+  
+    background-color: #FFA900;
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 2%;
+    border-radius: 100px;
+    
+}
+
+.criado-button a:hover {
+    border: #5c5b5b 5px solid;
+    color: #151515;
+}
+/*_______________FORM VIAGEM_________*/
+
+.viagem-body{
+    background-image: url(img/pexels-tirachard-kumtanom-450062.jpg);
+
+}
+.menu3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+ }
+ 
+ .menu3-logo {
+     width: 20px;
+    align-items: center;
+ }
+
+ .menu3-logo img {
+    margin-left: 40px;
+    width: 70px;
+ }
+ 
+ .menu3 h4{
+    color: white;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+    align-items: center;
+    font-size:25px;
+ }
+ 
+ .menu3 a {
+    border: 2px solid #50535a2f;
+    width: 200px;
+    text-align: center;
+    border-radius: 100px;
+    color: #e4e3e3;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 115px;
+
+ }
+
+ .menu3 a:hover{
+    border: #FFA900 solid 3px;
+    color: #FFA900;
+ }
+
+.viagem {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    
+}
+
+.viagem-text {
+    color: white;
+    margin-top:50px;
+    font-size: 25px;
+    margin-left: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+
+.viagem-form{
+    background-color: #63656b56;
+    width: 45%;
+    padding: 50px;
+    border-radius: 10px;
+   
+}
+
+.viagem-form input {
+    border: none;
+}
+
+.infos-pessoais {
+display: flex;
+column-gap: 100px;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.infos-pessoais input {
+    height: 35px;
+    border-radius: 10px;
+}
+.nome-sobre {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-tel {
+    flex-direction: column;
+    display: flex;
+}
+
+
+.escolha-destino {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 20px;
+}
+
+.select-destino {
+   height: 50px;
+   border-radius: 10px;
+    
+}
+
+.escolha-destino h3 {
+    margin-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.data-qtd {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 150px;
+    gap: 50px;
+
+}
+
+.data-qtd input{
+display: flex;
+flex-direction: column;
+height: 60px;
+border-radius: 5px;
+border: none;
+width: 110px;
+}
+
+.data-qtd label {
+    
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.btn-form {
+    margin-left: 130px;
+    margin-top: 50px;
+    height: 50px;
+    width: 300px;
+    border-radius: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #FFA900;
+    border: none;
+    
+}
+
+.btn-form:hover {
+    border: #f8faff 5px solid;
+}
+
+
+
